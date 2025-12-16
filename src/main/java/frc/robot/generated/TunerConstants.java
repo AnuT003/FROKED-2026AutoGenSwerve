@@ -129,7 +129,7 @@ public class TunerConstants {
     private static final int kFrontLeftDriveMotorId = 1;
     private static final int kFrontLeftSteerMotorId = 2;
     private static final int kFrontLeftEncoderId = 21;
-    private static final Angle kFrontLeftEncoderOffset = Rotations.of(-0.050537109375);
+    private static final Angle kFrontLeftEncoderOffset = Rotations.of(-0.107666015625);
     private static final boolean kFrontLeftSteerMotorInverted = true;
     private static final boolean kFrontLeftEncoderInverted = false;
 
@@ -280,7 +280,7 @@ public class TunerConstants {
                 TalonFX::new, TalonFX::new, CANcoder::new,
                 drivetrainConstants, odometryUpdateFrequency,
                 odometryStandardDeviation, visionStandardDeviation, modules
-            );
+            );                                     
         }
     }
 }
